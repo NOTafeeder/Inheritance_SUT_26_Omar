@@ -8,7 +8,6 @@ namespace Arv_SUT_26_Omar.Models
 {
     internal class Cat : Animal
     {
-        private string _goingHome = "Unknown";
         public string GoingHome { get; set; } = "Unknown";
         public Cat(string name, string species, int age, bool isPredator, string habitat, string goingHome) : base(name, species, age, isPredator, habitat)
         {
